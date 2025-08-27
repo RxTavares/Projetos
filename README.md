@@ -1,2 +1,2 @@
 # Projetos
-Projetos e exeercicios em C
+Projetos e exercicios em C
