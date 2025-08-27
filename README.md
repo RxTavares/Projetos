@@ -1,5 +1,7 @@
-# Projetos 
-Projetos e exercicios em C,C#,C++,Phyton,Java
+# Olá! Me chamo Rafael
 
-Repositório criado para compartilhar ideias e exercícios para todos!!!
+Aqui, irei compartilhar meus projetos em Linguagem C,C#,C++,Phyton,Java e tudo que estou aprendendo sobre programação
+
+Criei esse repositório para que vocês possam adquirir ideias e estudar também!!
+
 
