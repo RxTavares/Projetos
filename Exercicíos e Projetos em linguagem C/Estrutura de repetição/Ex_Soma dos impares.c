@@ -11,6 +11,8 @@ int main(){
     scanf("%d",&x);
     scanf("%d",&y);
 
+    // Aqui fiz a variavel troca, para que a soma ocorra independente se o valor de x for maior que y
+    
     if (x > y){
         troca = x;
         x = y;
