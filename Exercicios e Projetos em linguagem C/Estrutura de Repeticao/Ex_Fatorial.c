@@ -7,7 +7,7 @@ fatorial de N. */
 int main(){
 
     int N,i;
-    long long fatorial = 1;
+    long long fatorial;
 
 
     printf("Digite o valor de N: ");
@@ -18,7 +18,7 @@ int main(){
         fatorial *= 1;
     }
 
-    printf("Fatorial de %d = %lld\n", N, fatorial);
+    printf("Fatorial de %d = %lld \n", N, fatorial);
     return 0;
 }
 
