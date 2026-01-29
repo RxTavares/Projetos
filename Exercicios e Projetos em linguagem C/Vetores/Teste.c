@@ -1,50 +1,34 @@
+/*Faça um programa que leia N números inteiros e armazene-os em um vetor. Em seguida, mostre na
+tela todos os números pares, e também a quantidade de números pares.*/
+
 #include <stdio.h>
 
 int main() {
 
-    int N, i;
-    int idade[100];
-    char nome[100][50];
-    float altura[100];
+    int N,i,qnt_pares,vet[100];
 
-    float soma = 0, media;
-    int cont = 0;
-    float porcent;
+    printf("Quantos dados serao digitados: ");
+    scanf("%d",&N);
+    
+    for(i = 0; i< N; i++){
+        
+        printf("Digite um numero: ");
+        scanf("%d",&vet[i]);
+}
+    qnt_pares = 0;
 
-    printf("\n Quantos dados serao digitados: ");
-    scanf("%d", &N);
+    printf("Numeros pares: ");
 
-    for (i = 0; i < N; i++) {
-        printf("Dados da %da pessoa:\n", i + 1);
+    for(i = 0; i< N; i++){
 
-        printf("Nome: ");
-        scanf("%s", nome[i]);
+    if( vet[i] % 2 == 0){
+        
+        printf("%d, ", vet[i]);
 
-        printf("Idade: ");
-        scanf("%d", &idade[i]);
-
-        printf("Altura: ");
-        scanf("\n%f", &altura[i]);
+        qnt_pares = qnt_pares + 1;
     }
+}
+    printf(" \n Quantidade de pares = %d ",qnt_pares);
+        
 
-    for (i = 0; i < N; i++) {
-        soma += altura[i];
-    }
-    media = soma / N;
-    printf("Altura media: %.2f\n", media);
-
-    for (i = 0; i < N; i++) {
-        if (idade[i] < 16) {
-            cont++;
-        }
-    }
-    porcent = (cont * 100.0) / N;
-    printf("Pessoas com menos de 16 anos: %.2f%%\n", porcent);
-
-    for (i = 0; i < N; i++) {
-        if (idade[i] < 16) {
-            printf("%s\n", nome[i]);
-        }
-    }
-    return 0;
 }
