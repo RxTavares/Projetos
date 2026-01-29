@@ -13,3 +13,11 @@ int main() {
         printf("Digite um numero: ");
         scanf("%d",&v[i]);
 }
+printf("Valores digitados: ");
+
+for(i = 0; i< N; i++){
+
+printf("%d",&v[i]);
+}
+    if( v[i] % 2 == 0){
+
