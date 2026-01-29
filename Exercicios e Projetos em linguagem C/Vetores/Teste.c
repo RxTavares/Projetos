@@ -6,7 +6,7 @@ int main() {
     int idade[100];
     char nome[100][50];
     float altura[100];
-
+    
     float soma = 0, media;
     int cont = 0;
     float porcent;
