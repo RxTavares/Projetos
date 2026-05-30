@@ -9,7 +9,7 @@ int main(){
 
     int x,y;
 
-    printf("Digite dois Numeros: \n");
+    printf("Digite dois Numeros : \n");
     scanf("%d",&x);
     scanf("%d",&y);
 
