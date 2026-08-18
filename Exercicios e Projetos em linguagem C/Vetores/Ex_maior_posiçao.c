@@ -18,7 +18,6 @@ for ( i = 0; i < N; i++)
     scanf("%d",&vet[i]);
 
 }
-
     maior = vet[0];
     posicao = 0;
 
